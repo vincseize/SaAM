@@ -1,0 +1,112 @@
+label {
+    color:#aaa;
+    display: block;
+}
+input, textarea, select, option {
+    background-color:#FFF3F3;
+ }
+input, textarea, select {
+    border:1px solid #fff;
+    border-radius:5px;
+    margin-left: 2px;
+    margin-right: 2px;
+ }
+input[type=submit]:hover {
+    border:1px solid #26B3F7;
+    background-color: #1E7EAC; 
+}    
+.title_listes1{
+    font-weight: bold;
+}
+.ok{
+    color:green;
+    font-weight: bold;
+}
+.deleteProj {
+    color:red;
+}
+.deleteProj:hover{
+    color:lightcoral;
+}
+
+.listForRecette {
+	width: 98%;
+	text-align: left;
+	border-collapse: collapse;
+        border:1px solid black; 
+        margin-right: 18px;
+        border-bottom:1px solid #515151;
+}
+.listForRecette th {
+        text-align: center;
+	background: black;
+        padding-left: 3px;
+        padding-right: 3px;        
+}
+.listForRecette td {
+	max-width: 100px;
+        border-bottom:1px solid black;
+        border-right:1px solid #515151;
+        padding-left: 3px;
+        padding-right: 3px;
+}
+.listForRecette select {
+        color: white;
+	background: #515151;
+        border:none; 
+}
+.listForRecette option{
+        color: white;
+	background: #515151;
+        border:none; 
+}
+.listForRecette tr:hover{
+	background: #202020;
+}
+.TRmodulo{
+	background: #6B6B6B;
+}
+th.titleTH_v {
+	color:white;
+	writing-mode:tb-rl;
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	white-space:nowrap;
+	height:200px;
+        text-align:left;
+        width:5px;
+
+}
+
+.tableAPIcss {
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+
+ }
+ 
+.tdAPIcss { 
+    padding: 5px;
+    border-width:1px;
+    border-style:solid; 
+    border-color:black;
+
+ }
+ 
+ .trAPIcss:hover { 
+    background:#aaa;
+    border-width:1px;
+    border-style:solid; 
+    border-color:black;
+ }
+ 
+ .highlight_file {
+     
+    background:#666666;
+    padding-left: 16px;
+    padding-right: 5px;
+    margin-left: 16px;
+    margin-right:20px;    
+     
+ }

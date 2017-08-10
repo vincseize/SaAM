@@ -1,0 +1,188 @@
+.wc-container {
+	margin: -5px -10px 0px -10px;
+	font-family: arial, helvetica;
+}
+
+.wc-nav {
+	padding: 5px;
+	text-align: right;
+}
+
+.wc-nav button {
+	margin: 0px 5px;
+}
+
+.wc-container table {
+	width: 100% !important;
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wc-container table td {
+	margin: 0;
+	padding: 0;
+}
+
+.wc-header {
+	background: #111;
+	width: 100%;
+	height: 30px;
+}
+
+.wc-header .wc-time-column-header {
+	width: 6%;
+}
+
+.wc-header .wc-scrollbar-shim {
+	width: 16px;
+}
+
+.wc-header .wc-day-column-header {
+	text-align: center;
+	padding: 2px 5px;
+}
+.wc-header td {
+}
+
+.wc-grid-timeslot-header {
+	width: 6%;
+	background: #666;
+}
+
+
+.wc-scrollable-grid {
+/*	overflow: auto;*/
+	overflow: hidden !important;
+/*	overflow-y: auto !important;*/
+	position: relative;
+	width: 100%;
+}
+
+
+table.wc-time-slots {
+	width: 100%;
+	table-layout: fixed;
+	cursor: default;
+}
+
+.wc-day-column {
+	width: 13.5%;
+	border-left: 1px solid #222;
+/*	overflow: visible;*/
+	vertical-align: top;
+}
+
+.wc-day-column-inner {
+	width: 100%;
+	position:relative;
+}
+
+.wc-time-slot-wrapper {
+	position:relative;
+	height: 1px;
+	top: 1px;
+}
+
+.wc-time-slots {
+	position: absolute;
+	width: 100%;
+}
+
+
+.wc-time-header-cell {
+	padding: 5px;
+	height: 40px; /* reference height */
+}
+
+
+.wc-time-slot {
+	border-bottom: 1px dotted #333;
+}
+
+.wc-hour-header {
+	text-align: right;
+}
+
+.wc-hour-end, .wc-hour-header {
+	border-bottom: 1px solid #222;
+	font-size: 1.4em;
+	color: #fff;
+}
+
+.wc-business-hours {
+	border-bottom: 1px solid #222;
+}
+
+.wc-business-hours .wc-am-pm {
+	font-size: 0.6em;
+}
+
+.wc-day-header-cell {
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+
+
+.wc-time-slot-header .wc-header-cell {
+	text-align: right;
+	padding-right: 10px;
+}
+
+.wc-header .wc-today  {
+	font-weight: bold;
+}
+
+.wc-time-slots .wc-today {
+	background-color: #555;	
+}
+
+
+.wc-cal-event {
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+	position: absolute;	
+	text-align: center;
+	overflow: hidden;
+	cursor: pointer;
+	color: #fff;
+	width: 100%;
+}
+
+
+.wc-cal-event div {
+	padding: 0 5px;
+}
+
+.wc-cal-event .wc-time {
+	color: #fff;
+	padding: 0;
+	font-weight: bold;
+}
+
+.wc-container .ui-draggable .wc-time {
+	cursor: move;
+}
+
+.wc-cal-event .wc-title {
+	position: relative;
+}
+
+.wc-container .ui-resizable-s {
+	height: 10px;
+	bottom: -8px;
+}
+
+
+.wc-container .ui-draggable-dragging {
+   z-index: 1000;
+}
+
+.wc-new-cal-event-creating {
+	display: block;
+	background-color: #003147 !important;
+	z-index: 999;
+}

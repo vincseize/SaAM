@@ -1,0 +1,6 @@
+{
+	"name": "chat",
+	"descr": "This plugin allows users to discuss interactively within the SaAM (instant messages).",
+	"dev": "Polosson, ©2013 LRDS",
+	"forceEnable": true
+}

@@ -1,0 +1,6 @@
+@session_start();
+require_once ($_SESSION['INSTALL_PATH_INC']."/checkConnect.php" );
+
+$projects_list = $l->getListe(TABLE_PROJECTS,'*');
+
+// return an Array

@@ -1,0 +1,144 @@
+
+/*
+    Document	: colors
+	Thème		: dark
+    Description : Redéfinition des couleurs du thème
+*/
+
+
+/*-------------------------- FONDS -------------------------*/
+
+body		{ background-color: #111 !important; color: #fff !important; }
+.fondPage	{ background-color: #222 !important; color: #fff !important; }
+.fondSect1	{ background-color: #111 !important; color: #fff !important; }
+.fondSect2	{ background-color: #444 !important; color: #fff !important; }
+.fondSect3	{ background-color: #666 !important; color: #fff !important; }
+.fondSect4	{ background-color: #333 !important; color: #fff !important;  }
+.fondHigh	{ background-color: #006E9E !important; color: #fff !important; }
+.fondBlanc { background-color: #EEE !important; color: #000 !important; }
+.fondError { background-color: #FECF5B !important; color: #000 !important; }
+.fondProd	{ background-color: #DDD !important; color: #333 !important; }
+.fondProdInv  { background-color: #9A9A9A !important; color: #333 !important; }
+.fondWarning  { background-color: #EFCBC6 !important; color: #333 !important; }
+.fondAchieved { background-color: #C9E8C0 !important; color: #333 !important; }
+
+
+.fondSemiTransp { background:rgba(17, 17, 17, .4); }
+.topInfosStage, .topInfosHome, .bgDegrade {
+	background: -webkit-linear-gradient(left, rgba(17, 17, 17, 1) 30%, rgba(17, 17, 17, 0) 90%);
+	background: -moz-linear-gradient(left, rgba(17, 17, 17, 1) 30%, rgba(17, 17, 17, 0) 90%);
+	background: linear-gradient(rgba(17, 17, 17, 1), rgba(17, 17, 17, 0));
+}
+
+
+
+/*-------------------------- BORDS -------------------------*/
+
+.bordPage	 { border: 2px solid #333; }
+.bordSection { border-color: #555; }
+.bordColInv1 { border-color: #111; }
+.bordColInv2 { border-color: #222; }
+.bordColInv	 { border-color: #444; }
+.bordHi		{ border: 1px solid #ffb73d; }
+.bordHi2	{ border: 2px solid #cfaa6c; }
+.bordProd	{ border-color: #aaa; }
+
+.bordBankSection	{ border-right: 2px solid #333; }
+.bordBankAsset		{ border-left:  2px solid #333; }
+.bordTagsSection	{ border-right: 3px solid #1C7DAC; }
+
+.bordTaskOwn { border: 1px solid orange !important; }
+
+.tableListe td { border-bottom: 1px solid #000 ; }
+
+
+.deptBtn, .helpBtn, .headerBtn {
+	border: 1px solid #444;
+}
+
+/*-------------------------- TEXTE -------------------------*/
+
+.colorErreur	{ color: red; }
+.colorOk		{ color: green; }
+.colorPage		{ color: #000 !important; }
+.colorDiscret	{ color: #666 !important; }
+.colorDiscret1	{ color: #1B6990 !important; }
+.colorDiscret2	{ color: #D9B457 !important; }
+.colorDiscret3	{ color: #1B8E30 !important; }
+.colorMid		{ color: #AAA !important; }
+.colorSoft		{ color: #999 !important; }
+.colorSoft:hover{ color: #eee !important; }
+.colorHard		{ color: #eee !important; }
+.colorDark		{ color: #222; }
+.colorErrText { color: #FECF5B !important; }
+.colorBtnFake	{ color: #26b3f7 !important;; }
+.colorActiveFolder	{ color: #006E9E !important; }
+.activeShotCenter		{ color: #006E9E !important; cursor: default; }
+.inactiveShotCenter	{ color: #666 !important; cursor: pointer; }
+.inactiveShotCenter:hover	{ color: #eee !important; }
+
+/*-------------------------- LIENS -------------------------*/
+
+a:link, a:visited, a:active { color: #eee ; }
+a:hover						{ color: #fff; }
+.ui-state-error a			{ color: #000; }
+.ui-state-highlight a		{ color: #000 !important; }
+
+span.lien		{ color:#aaa; }
+span.lien:hover { color:#eee; }
+
+/*---------------------- BOUTONS SPECIAUX -------------------*/
+
+.bouton.ui-state-error:hover { border-color: #f35f07 ; }
+/*copie de la classe UI state-focus pour palier à l'auto blur sur les boutons */
+.ui-state-focusFake {
+	border: 1px solid #0b93d5 !important;
+	background: #003147 url(images/ui-bg_highlight-soft_33_003147_1x100.png) 50% 50% repeat-x;
+	font-weight: normal !important;
+	color: #ffffff !important;
+}
+/*copie de la classe UI state-focus pour palier à l'auto blur sur les boutons */
+.ui-state-activeFake {
+	border: 1px solid #26b3f7 !important;
+	background: #0972a5 url(images/ui-bg_highlight-hard_20_0972a5_1x100.png) 50% 50% repeat-x !important;
+	font-weight: normal !important;
+	color: #ffffff !important;
+}
+.ui-progressbar-value { border: 1px solid #0b93d5 !important; background: #003147 url(images/ui-bg_highlight-soft_33_003147_1x100.png) 50% 50% repeat-x !important; }
+
+.ui-state-default {  opacity: 0.8; }
+
+
+/*-------------------- FENÊTRES SPÉCIALES -------------------*/
+
+#globalHelp {
+    z-index: 9999;
+    background: rgba(221, 207, 0, .95);
+}
+#globalNews {
+    z-index: 9998;
+    background: rgba(38, 130, 175, .95);
+}
+
+/*-------------------- ANIMATION WARNING --------------------*/
+@keyframes warning {
+	from {
+		background: none;
+	}
+	to {
+		background: red;
+	}
+}
+@-webkit-keyframes warning {
+	from {
+		background: none;
+	}
+	to {
+		background: red;
+	}
+}
+
+.warning_anim {
+	animation: warning 0.5s linear 0s infinite alternate;
+	-webkit-animation: warning 0.5s linear 0s infinite alternate;
+}

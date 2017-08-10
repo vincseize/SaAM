@@ -1,0 +1,29 @@
+/*
+    Document   : help
+    Description:
+        CSS pour les pages d'aide'.
+*/
+
+
+
+#globalHelp, #globalNews {
+    position:absolute;
+    top:6px; left:0px;
+    width:380px; height:380px;
+    color: #000;
+    padding: 10px;
+    -moz-border-radius-bottomright: 25px 25px;
+    border-bottom-right-radius: 25px 25px;
+}
+#globalHelp { z-index: 9999; }
+#globalNews { z-index: 9998; }
+
+#globalHelp img, #globalNews img {
+	max-width: 340px;
+}
+
+
+.todoHelp {
+        color: red;
+        font-style: italic;
+}

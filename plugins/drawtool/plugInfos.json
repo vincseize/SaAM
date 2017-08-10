@@ -1,0 +1,6 @@
+{
+	"name": "drawtool",
+	"descr": "This plugin allows users to draw directly onto published images, and save it (replace last published).",
+	"dev": "Karlova, ©2015 LRDS",
+	"forceEnable": false
+}

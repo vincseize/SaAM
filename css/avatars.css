@@ -1,0 +1,20 @@
+
+
+	/********************************* AVATARS SPECIFIQUES ***************************************/
+
+.avatar_chat {
+	width: 18px;
+	height: 12px;	
+	cursor: pointer;
+}
+a.avatar_chat:link {
+  text-decoration: none;
+}
+
+img.avatar_chat:hover {
+	width: 30px;
+	height: 18px;
+}
+
+
+

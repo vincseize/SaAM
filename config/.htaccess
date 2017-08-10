@@ -1,0 +1,8 @@
+
+## Interdire l'affichage du dossier data
+Options -Indexes -FollowSymLinks -ExecCGI
+
+## Interdire l'accès direct aux fichiers JSON, PHP ou INC
+<Files ~ "\.(json|bckp|php|inc)$">
+  Require all denied
+</Files>

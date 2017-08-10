@@ -1,0 +1,35 @@
+/************************************ BANKS ************************************/
+
+/************************* BANKS PROJECTS ******************************/
+#bank_project ul li{
+        position:relative;float:left;
+        width:80px;height:80px;padding:10px;list-style:none;
+    }
+    /*permet de créer X lignes*/
+#bank_project ul li:nth-child(8n){clear:left;}
+
+#bank_project ul li a{
+        display:block;overflow:hidden;
+        width:80px;height:80px;
+        margin-top:0px;margin-left:0px;
+        border:0px solid rgba(0,0,0,0.7);
+        transition-property:width,height,margin,z-index,border;
+        transition-duration:0.4s;
+    }
+
+#bank_project ul li a:hover{
+        position:absolute;
+        border:2px solid rgba(255,255,255,0.7);
+    }
+
+#bank_project ul li a img{
+        position:absolute;
+        width:80px;height:80px;z-index:20;
+        transition-property:width,height,z-index;
+        transition-duration:0.4s;
+        border:1px solid black;
+    }
+
+#bank_project span:hover {
+    background-color: red;
+}

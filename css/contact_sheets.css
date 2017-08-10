@@ -1,0 +1,145 @@
+/*
+    Document   : contact_sheets
+    Created on : 19 juin 2013, 12:52:26
+    Author     : polosson
+    Description:
+        Style des pages de planche-contact.
+*/
+
+/******* CONTACT SHEETS *******/
+
+body {
+	background-color: #FFFFFF;
+	-webkit-print-color-adjust: exact; -moz-print-color-adjust: exact; print-color-adjust: exact;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 0.9em;
+	color: #555555;
+	margin: 0px 0.5em;
+}
+
+i { color: #999999; }
+
+button {
+	font-size: 1em;
+}
+.fixFloat { clear: both; }
+.pageBreakI { page-break-inside: avoid; }
+.pageBreakA { page-break-after: always;}
+.pageBreakB { page-break-before: always; }
+
+
+.headPage {
+	background-color: #333333;
+	-webkit-print-color-adjust: exact; -moz-print-color-adjust: exact; print-color-adjust: exact;
+	/*-moz-border-radius: 0px 0px 6px 6px; -webkit-border-radius: 0px 0px 6px 6px; -khtml-border-radius: 0px 0px 6px 6px; border-radius: 0px 0px 6px 6px;*/
+	margin-bottom: 2em;
+	padding: 0.2em;
+}
+.headTitle {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.4em;
+	margin-top: 1em;
+}
+.headInfo {
+	color: #BBBBBB;
+	text-align: right;
+	font-size: 0.75em;
+}
+.printer { cursor: pointer; }
+
+
+.CSsequence {
+	text-align: left;
+	-moz-border-radius: 6px; -webkit-border-radius: 6px; -khtml-border-radius: 6px; border-radius: 6px;
+	/*-moz-box-shadow: 2px 2px 8px #CCCCCC; -webkit-box-shadow: none; -khtml-box-shadow: 2px 2px 8px #CCCCCC; box-shadow: 2px 2px 8px #CCCCCC;*/
+	background-color: #FFFFFF !important;
+	-webkit-print-color-adjust: exact; -moz-print-color-adjust: exact; print-color-adjust: exact;
+	margin: 1.5em 0px;
+	padding: 0;
+}
+
+.seqTitle {
+	text-align: left;
+	background-color: #DDDDDD !important;
+	-webkit-print-color-adjust: exact; -moz-print-color-adjust: exact; print-color-adjust: exact;
+	-moz-border-radius: 6px 6px 0px 0px; -webkit-border-radius: 6px 6px 0px 0px; -khtml-border-radius: 6px 6px 0px 0px; border-radius: 6px 6px 0px 0px;
+	font-size: 1.3em;
+	padding: 0.2em 0.6em;
+}
+
+.contactSheetItem {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin: 1.2em;
+	width: 39em;
+	height: 32em;
+	font-size: 0.8em;
+}
+
+.CSitemImg {
+	min-height: 24em;
+}
+.CSitemImg img {
+	margin-top: 0.5em;
+	width: 39em !important;
+	max-height: 24em !important;
+	/*-moz-box-shadow: 2px 2px 8px #999999; -webkit-box-shadow: none; -khtml-box-shadow: 2px 2px 8px #999999; box-shadow: 2px 2px 8px #999999;*/
+	-webkit-print-color-adjust: exact; -moz-print-color-adjust: exact; print-color-adjust: exact;
+}
+
+.CSitemTitle {
+	margin-top: 0.6em;
+	height: auto;
+}
+.posSeq {
+	float: left;
+	color: #DDDDDD;
+}
+
+.CSitemDescr {
+	text-align: left;
+	margin-top: 0.2em;
+	padding: 0.5em 0px;
+	height: 8em;
+	overflow:hidden;
+}
+
+.tableListe {
+	width: 100%;
+	font-size: 0.8em;
+	text-align: left;
+	border-collapse: collapse;
+	/*-moz-box-shadow: 0 2px 3px #AAAAAA; -webkit-box-shadow: none; -khtml-box-shadow: 0 2px 3px #AAAAAA; box-shadow: 0 2px 3px #AAAAAA;*/
+	background-color: #FFFFFF !important;
+	-webkit-print-color-adjust: exact; -moz-print-color-adjust: exact; print-color-adjust: exact;
+	margin: 10px 0px;
+}
+.tableListe th, .tableListe td {
+	background-color: #FFFFFF !important;
+	-webkit-print-color-adjust: exact; -moz-print-color-adjust: exact; print-color-adjust: exact;
+	border-bottom: 1px solid lightgray;
+	border-right: 1px dashed lightgray;
+}
+.tableListe th {
+	background-color: #FFFFFF !important;
+	-webkit-print-color-adjust: exact; -moz-print-color-adjust: exact; print-color-adjust: exact;
+	padding: 8px 3px;
+	text-align: center;
+}
+.tableListe td {
+	background-color: #FFFFFF !important;
+	-webkit-print-color-adjust: exact; -moz-print-color-adjust: exact; print-color-adjust: exact;
+	padding: 3px;
+	vertical-align: top;
+}
+
+.tagItem {
+	background-color: #006E9E;
+	-webkit-print-color-adjust: exact; -moz-print-color-adjust: exact; print-color-adjust: exact;
+	border: 1px solid #77C3E8;
+	border-radius: 0px 4px;
+	padding: 2px 4px;
+}
